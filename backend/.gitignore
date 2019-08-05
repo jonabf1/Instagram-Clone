@@ -1,0 +1,28 @@
+# Node modules
+node_modules
+
+# Adonis directory for storing tmp files
+tmp
+
+# Environment variables, never commit this file
+.env
+
+# The development sqlite file
+database/development.sqlite
+
+# Mac
+.DS_Store
+app/.DS_Store
+
+# Phpstorm
+.idea/*
+.idea/*.*
+.idea/workspace.xml
+
+## Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+.idea/
