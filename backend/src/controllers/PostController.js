@@ -43,6 +43,11 @@ module.exports = {
     req.io.emit("post", post);
 
     return res.json(post);
+  },
+
+  async  deletea(req, res) {
+    await Post.deleteMany();
+    return res.send();
   }
 
 

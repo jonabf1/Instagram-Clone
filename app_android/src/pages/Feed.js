@@ -23,7 +23,7 @@ export default class Feed extends Component {
 
     async componentDidMount() {
         this.registerToSocket();
-        const response = await api.get('post');
+        const response = await api.get('posts');
         this.setState({ feed: response.data });
     }
     //REAL-TIME(ATUALIZAÇÃO  EM TEMPO REAL)
@@ -33,16 +33,17 @@ export default class Feed extends Component {
             this.setState({ feed: [newPost, ... this.state.feed] });
         }
         )
+        
         socket.on('like', likedPos => {
             this.setState({
-                feed: this.state.feed.map(post => post._id === likedPost._id ? likedPost : post)
+                feed: this.state.feed.map(post => post._id === likedPos._id ? likedPos : post)
 
             });
         })
     }
 
     handleLike = id => {
-        api.post(`../post/${id}/like`)
+        api.post(`../posts/${id}/like`)
     }
     render() {
         return (

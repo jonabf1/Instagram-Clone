@@ -17,14 +17,14 @@ class Feed extends Component {
 
     async componentDidMount() {
         this.registerToSocket();
-        const response = await api.get('post');
+        const response = await api.get('posts');
         this.setState({ feed: response.data });
     }
 
     //IO lado Cliente
     registerToSocket = () => {
         //ATUALIZAR POST REAL-TIME
-        const socket = io('https://instagran-backend.herokuapp.com');
+        const socket = io('http://localhost:3333');
         socket.on('post', newPost => {
             this.setState({ feed: [newPost, ...this.state.feed] })
         })
@@ -40,7 +40,7 @@ class Feed extends Component {
     }
     //EFETUAR LIKE
     handleLike = id => {
-        api.post(`/post/${id}/like`)
+        api.post(`/posts/${id}/like`)
     }
 
     render() {
@@ -55,7 +55,7 @@ class Feed extends Component {
                             </div>
                             <img src={more} alt="Mais" />
                         </header>
-                        <img src={`http://localhost:3333/files/${post.image}`} alt="" />
+                        <img src={`http://localhost:3333/files/${post.image}` } className="img_post" alt="" />
                         <footer>
                             <div className="actions">
                                 <button type="button" onClick={() => this.handleLike(post._id)}>

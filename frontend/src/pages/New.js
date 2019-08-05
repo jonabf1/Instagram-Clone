@@ -20,7 +20,7 @@ class New extends Component {
         data.append('description', this.state.description)
         data.append('hashtags', this.state.hashtags)
 
-        await api.post('/post', data)
+        await api.post('/posts', data)
         this.props.history.push('/');
     }
 
@@ -34,6 +34,8 @@ class New extends Component {
     render() {
         return (
             <form id="new-post" onSubmit={this.handleSubmit}>
+                <input type="file"
+                    onChange={this.handleImageChange} />
                 <input type="text" name="author" placeholder="Autor do post"
                     onChange={this.handleChange} value={this.state.author} />
                 <input type="text" name="place" placeholder="Local do post"

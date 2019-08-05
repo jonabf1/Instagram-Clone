@@ -9,12 +9,9 @@ const routes = new express.Router();
 const upload = multer(uploadConfig);
 
 routes.get("/posts", PostController.index);
+routes.delete("/poss", PostController.deletea);
 routes.post("/posts", upload.single("image"), PostController.store);
 routes.post("/posts/:id/update", upload.single("image"), PostController.update);
 routes.post("/posts/:id/like", LikeController.store);
-
-routes.get("/", function(req, res) {
-  res.send("api start");
-});
 
 module.exports = routes;

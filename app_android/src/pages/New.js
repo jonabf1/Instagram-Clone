@@ -60,7 +60,7 @@ export default class New extends Component {
         data.append('description', this.state.description);
         data.append('hashtags', this.state.hashtags);
 
-        await api.post('post', data)
+        await api.post('posts', data)
         this.props.navigation.navigate('Feed');
     }
 

@@ -36,6 +36,11 @@ section#post-list article>img{
     width:100%;
 }
 
+section#post-list article>.img_post{
+    width:100%;
+        height:350px;
+}
+
 section#post-list article footer{
     padding: 20px;
 }
