@@ -1,6 +1,6 @@
 <h1 style="text-align:"center";">Instagram-Clone</h1>
 
-#### Como instalar
+### Como instalar
 - $ git clone https://github.com/jonabf1/Instagram-Clone
 - Vá para a pasta do repositorio
 
