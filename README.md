@@ -52,7 +52,7 @@
 
 #### 4. Resultado final
 
-![Alt Text](src/assets/facebook.gif)
+<img src="https://res.cloudinary.com/jonabf1/video/upload/v1574228529/Jonathan_Barros_Franco_LinkedIn_uuwalf.gif"/>
 
 ---
 
