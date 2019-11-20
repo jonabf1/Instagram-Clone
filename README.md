@@ -53,7 +53,7 @@
 #### 4. Resultado final
 
 <a align="center">
-![Alt Text](frontend/src/assets/gif.gif)
+<img src="frontend/src/assets/gif.gif"/>
 </a>
 ---
 
