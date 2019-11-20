@@ -52,8 +52,9 @@
 
 #### 4. Resultado final
 
+<a align="center">
 ![Alt Text](frontend/src/assets/gif.gif)
-
+</a>
 ---
 
 Made with ♥ by [Jonathan](https://www.linkedin.com/in/jonathan-barros-franco)
