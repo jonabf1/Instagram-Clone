@@ -52,7 +52,8 @@
 
 #### 4. Resultado final
 
-![Alt Text](https://res.cloudinary.com/jonabf1/video/upload/v1574228529/Jonathan_Barros_Franco_LinkedIn_uuwalf.gif)
+<img src="https://res.cloudinary.com/jonabf1/video/upload/v1574228529/Jonathan_Barros_Franco_LinkedIn_uuwalf.gif"/>
+
 ---
 
 Made with ♥ by [Jonathan](https://www.linkedin.com/in/jonathan-barros-franco)
