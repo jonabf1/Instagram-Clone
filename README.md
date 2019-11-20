@@ -55,6 +55,7 @@
 <h1 align="center">
 <img src="frontend/src/assets/gif.gif"/>
 </h1>
+
 ---
 
 Made with ♥ by [Jonathan](https://www.linkedin.com/in/jonathan-barros-franco)
