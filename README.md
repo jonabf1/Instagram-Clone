@@ -1,11 +1,60 @@
-# Instagram-Clone
-Node/React/React Native
+<h1 style="text-align:"center";">Instagram-Clone</h1>
 
--Instale as dependências descritas dentro do Package.JSON de cada diretorio(Front, Back e App).
+#### Como instalar
+- $ git clone https://github.com/jonabf1/Instagram-Clone
+- Vá para a pasta do repositorio
 
+#### :rocket: Backend
+- yarn install (instalar todas as dependências)
+- yarn dev (iniciar servidor)
 
-Rode 'yarn dev' para o backend no terminal
+#### :rocket: Frontend
+- yarn install (instalar todas as dependências)
+- yarn start (iniciar aplicação)
 
-Rode 'npm start' para o frontend no terminal
+#### :rocket: Mobile
+- yarn install (instalar todas as dependências)
+- react-native run-ios/android (abrir no emulador)
 
-Rode 'react-native android-run' para o app no terminal (com emulador android aberto)
+### Dependência usadas
+
+#### :rocket: Backend
+
+- cors
+- express 
+- mongoose
+- multer 
+- netlify-lambda
+- serverless-http
+- sharp
+- socket.io
+- nodemon
+
+#### :rocket: Frontend
+
+- axios
+- react
+- react-dom
+- react-router-dom
+- react-scripts
+- socket.io
+- socket.io-client
+
+### :rocket: Mobile
+
+- axios
+- react
+- react-native
+- react-native-gesture-handler
+- react-native-image-picker
+- react-navigation
+- socket.io-client
+
+#### 4. Resultado final
+
+![Alt Text](src/assets/facebook.gif)
+
+---
+
+Made with ♥ by [Jonathan](https://www.linkedin.com/in/jonathan-barros-franco)
+
