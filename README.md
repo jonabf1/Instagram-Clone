@@ -9,7 +9,7 @@ Clone do Instagram
 - $ git clone https://github.com/jonabf1/Instagram-Clone
 - Vá para a pasta do repositorio
 
-- #### Backend
+#### Backend
 - yarn install (instalar todas as dependências)
 - yarn dev (iniciar servidor)
 
