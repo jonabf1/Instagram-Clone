@@ -16,46 +16,14 @@
 - yarn install (instalar todas as dependências)
 - react-native run-ios/android (abrir no emulador)
 
-### Dependência usadas
-
-#### :rocket: Backend
-
-- cors
-- express 
-- mongoose
-- multer 
-- netlify-lambda
-- serverless-http
-- sharp
-- socket.io
-- nodemon
-
-#### :rocket: Frontend
-
-- axios
-- react
-- react-dom
-- react-router-dom
-- react-scripts
-- socket.io
-- socket.io-client
-
-### :rocket: Mobile
-
-- axios
-- react
-- react-native
-- react-native-gesture-handler
-- react-native-image-picker
-- react-navigation
-- socket.io-client
-
 #### 4. Resultado final
 
-<h1 align="center">
+<p align="center">
 <img src="frontend/src/assets/gif.gif"/>
-</h1>
+</p>
 
----
-Made with ♥ by [Jonathan](https://www.linkedin.com/in/jonathan-barros-franco)
+<hr/>
 
+<p align="center">
+Feito com ♥ by <a href="https://www.linkedin.com/in/jonathan-barros-franco">Jonathan</a>
+</p>
