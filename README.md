@@ -9,19 +9,19 @@ Clone do Instagram
 - $ git clone https://github.com/jonabf1/Instagram-Clone
 - Vá para a pasta do repositorio
 
-#### :rocket: Backend
+#### Backend
 - yarn install (instalar todas as dependências)
 - yarn dev (iniciar servidor)
 
-#### :rocket: Frontend
+#### Frontend
 - yarn install (instalar todas as dependências)
 - yarn start (iniciar aplicação)
 
-#### :rocket: Mobile
+#### Mobile
 - yarn install (instalar todas as dependências)
 - react-native run-ios/android (abrir no emulador)
 
-#### 4. Resultado final
+#### :rocket: 4. Resultado final
 
 <p align="center">
 <img src="frontend/src/assets/gif.gif"/>
