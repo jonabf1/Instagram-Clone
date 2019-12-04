@@ -1,10 +1,6 @@
-<p align="center">
-<img src="frontend/src/assets/logo.svg"/>
-</p>
-
 <h1 align="center">
-  Instagram Clone
-  </h1>
+<img src="frontend/src/assets/logo.svg" width="200px"/>
+</h1>
 
 ### :rocket: Sobre
 Clone do Instagram
