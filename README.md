@@ -3,7 +3,7 @@
 </h1>
 
 ### :rocket: Sobre
-Clone do Instagram
+Clone do Instagram criado com Node.js e ReactJS
 
 ### :rocket: Como instalar
 - $ git clone https://github.com/jonabf1/Instagram-Clone
