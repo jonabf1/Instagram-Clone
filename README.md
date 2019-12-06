@@ -3,25 +3,25 @@
 </h1>
 
 ### :rocket: Sobre
-Clone do Instagram criado com Node.js e ReactJS
+Instagram clone created with Node.js and ReactJS
 
-### :rocket: Como instalar
+### :rocket: How install
 - $ git clone https://github.com/jonabf1/Instagram-Clone
-- Vá para a pasta do repositorio
+- Go to repository folder
 
 #### Backend
-- yarn install (instalar todas as dependências)
-- yarn dev (iniciar servidor)
+- yarn install (install all dependencies)
+- yarn dev (start server)
 
 #### Frontend
-- yarn install (instalar todas as dependências)
-- yarn start (iniciar aplicação)
+- yarn install (install all dependencies)
+- yarn start (start app web)
 
 #### Mobile
-- yarn install (instalar todas as dependências)
-- react-native run-ios/android (abrir no emulador)
+- yarn install (install all dependencies)
+- react-native run-ios/android (open in emulator)
 
-#### :rocket: 4. Resultado final
+#### :rocket: 4. Final result
 
 <p align="center">
 <img src="frontend/src/assets/gif.gif"/>
@@ -30,5 +30,5 @@ Clone do Instagram criado com Node.js e ReactJS
 <hr/>
 
 <p align="center">
-Feito com ♥ by <a href="https://www.linkedin.com/in/jonathan-barros-franco">Jonathan</a>
+Made with ♥ by <a href="https://www.linkedin.com/in/jonathan-barros-franco">Jonathan</a>
 </p>
