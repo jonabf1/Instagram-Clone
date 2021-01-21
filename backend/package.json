@@ -15,7 +15,7 @@
     "netlify-lambda": "^1.4.13",
     "serverless-http": "^2.0.2",
     "sharp": "^0.22.1",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
